@@ -1,0 +1,112 @@
+:root {
+	font-size: 100%;
+}
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+	box-sizing: border-box;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 1.125rem;
+	background-color: #1AA1AD;
+
+	background-position:
+	right 50vw bottom 50vh,
+	left 50vw top 50vh;
+    
+	background-image:
+	url("images/bg-pattern-top.svg"),
+	url("images/bg-pattern-bottom.svg");
+
+	background-repeat: no-repeat;
+}
+
+.card_wrapper {
+	width: 90%;
+	max-width: 350px;
+	min-width: 260px;
+	border: 1px solid #1AA1AD;
+	border-radius: 10px;
+	
+}
+
+.card_top {
+	border-bottom: 1px solid #DDDDDD;
+	background-color: #ffffff;
+	border-radius: 16px 16px 0 0;
+	text-align: center;
+}
+
+.bg_profilepic {
+	background-image: url("images/bg-pattern-card.svg");
+	background-position: top;
+	background-repeat: no-repeat;
+	border-radius: 16px 16px 0 0;
+	padding-top: 87px;
+}
+
+.profilepic {
+	display: block;
+	border: 5px solid white;
+	border-radius: 50px;
+	margin: 0 auto;
+}
+
+.name {
+	display: inline-block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.age {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 20px 0 0 5px;
+	color: hsl(0, 0%, 59%);
+}
+
+.city {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0 30px 0;
+	color: hsl(0, 0%, 59%);
+	font-size: 0.9375rem;
+}
+
+.card_bottom {
+	display: flex;
+	justify-content: center;
+	background-color: #ffffff;
+	border-radius: 0 0 16px 16px;
+}
+
+.followers, .likes , .photos {
+	text-align: center;
+	padding: 25px 20px;
+}
+
+.followers p, .likes p, .photos p {
+	color: hsl(0, 0%, 59%);
+	font-size: 0.75rem;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding-top: 7px;
+}
+
+.attribution { 
+	position: absolute;
+	bottom: 0px;
+	font-size: 11px; text-align: center;
+	color: #ffffff;
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%);
+}
